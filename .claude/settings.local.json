@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ':*)",
+      "Bash(pip list:*)",
+      "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(py -c \"import cv2; print\\(cv2.__version__\\)\")",
+      "Bash(pip show:*)",
+      "Read(//c/Users/ishaa/anaconda3/**)",
+      "Read(//c/Users/ishaa/anaconda3//**)",
+      "Bash(/c/Users/ishaa/anaconda3/python.exe -c ':*)",
+      "Bash(/c/Users/ishaa/anaconda3/python.exe detect.py --source input/ --no-show --save)",
+      "Bash(/c/Users/ishaa/anaconda3/python.exe detect.py --source input/page_2.png --no-show)",
+      "Bash(/c/Users/ishaa/anaconda3/python.exe detect.py --source input/ --no-show)",
+      "Bash(ls /c/Users/ishaa/Documents/Projects/drone/yolov8/input/page_*.png)",
+      "Bash(/c/Users/ishaa/anaconda3/python.exe -c \"import cv2; img = cv2.imread\\('input/page_2.png'\\); print\\(img.shape\\)\")",
+      "Bash(/c/Users/ishaa/anaconda3/python.exe generate_test_images.py)",
+      "Bash(/c/Users/ishaa/anaconda3/python.exe detect.py --source test/ --no-show --save)"
+    ]
+  }
+}
